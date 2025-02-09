@@ -75,7 +75,7 @@ header > div:nth-child(3) > ul {
 
 header > div:nth-child(3) > ul > li {
     width: 196px;
-    float: right;
+    float: left;
 }
 
 header > div:nth-child(3) > ul > li > a > img {
@@ -139,6 +139,65 @@ main > div > div > div > div > img:nth-child(3) {
     position: absolute;
     top: 175px;
     left: 10px;
+}
+
+main > section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+main > div > section > article {
+    display: inline-block;
+    width: 160px;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+main > div > section > article h3  {
+    font-weight: bold;
+}
+
+main > div > section > article p:nth-child(2)  {
+    color: #777777;
+}
+
+.main_banner_sub_container {
+    width: 100%;
+    height: auto;
+}
+
+.main_banner_sub_container > a {
+    position: relative;
+    float: left;
+}
+
+.main_banner_sub_container > a > img {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.main_banner_sub_container > a:nth-child(1) {
+    display: inline-block;
+    width: 490px;
+    height: 74px;
+    background-image: url(/images/main_banner_sub1_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_banner_sub_container > a:nth-child(2) {
+    display: inline-block;
+    width: 490px;
+    height: 74px;
+    background-image: url(/images/main_banner_sub2_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tits {
