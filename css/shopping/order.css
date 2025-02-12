@@ -313,7 +313,11 @@ header > div:nth-child(3) > ul > li > a > img {
     border: none;
 }
 
-.input_info > table {
+.input_info {
+    float: left;
+}
+
+.input_info > form > table {
     width: 447px;
     height: 440px;
     border-collapse: collapse;
@@ -322,6 +326,10 @@ header > div:nth-child(3) > ul > li > a > img {
 
 .input_info > form > table tr > td > input {
     display: inline-block;
+}
+
+.input_info > form > table tr > td:nth-child(1) {
+    width: 105px;
 }
 
 footer {
