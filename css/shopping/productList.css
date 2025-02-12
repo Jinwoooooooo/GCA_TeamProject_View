@@ -205,6 +205,7 @@ header > div:nth-child(3) > ul > li > a > img {
 .sub_page > table th {
     height: 38px;
     background-color: #E5ECEF;
+    border-bottom: 1px solid #d1dee2;
 }
 .sub_page > table tr {
     border-bottom: 1px solid #eee
@@ -238,6 +239,9 @@ header > div:nth-child(3) > ul > li > a > img {
 }
 .sub_page > table tr > td:nth-child(6) > strong {
     font-weight: 700;
+}
+.sub_page > table tr:last-child {
+    border-bottom: none;
 }
 
 .item_img {
