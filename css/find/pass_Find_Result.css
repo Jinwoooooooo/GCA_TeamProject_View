@@ -69,6 +69,7 @@ header article > .freeShipping {
 header > div:nth-child(3) {
     width: 100%;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 header > div:nth-child(3) > ul {
@@ -76,7 +77,8 @@ header > div:nth-child(3) > ul {
 }
 
 header > div:nth-child(3) > ul > li {
-    float: right;
+    width: 196px;
+    float: left;
 }
 
 header > div:nth-child(3) > ul > li > a > img {
