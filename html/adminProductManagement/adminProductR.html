@@ -61,15 +61,65 @@
         </aside>
 
         <section>
-            <nav>상품등록</nav>
+            <nav class="heading2">상품등록</nav>
             <article>
                 <form action="#">
                     <table>
-                        <tr>
-                            <td class="td">상품명</td>
+                        <tr class="table_tr">
+                            <td>상품명</td>
                             <td><input type="text" name="prod_name"></td>
                         </tr>
+                        <tr class="table_tr">
+                            <td>종류</td>
+                            <td><option value="type" class="op">종류</option></td>
+                        </tr>
+                        <tr class="table_tr">
+                            <td>가격</td>
+                            <td><input type="text" name="prod_price"></td>
+                        </tr>
+                        <tr class="table_tr">
+                            <td>포인트</td>
+                            <td><input type="number" name="prod_point" placeholder="100"><span class="p_point">포인트는 가격의 1%</span></td>
+                        </tr>
+                        <tr class="table_tr">
+                            <td>할인</td>
+                            <td><option value="sale" class="op">5%</option></td>
+                        </tr>
+                        <tr class="table_tr">
+                            <td><p>배송비</p></td>
+                            <td class="radio">
+                                <label><input type="radio">2,000원</label>
+                                <label><input type="radio">3,000원</label>
+                                <label><input type="radio">5,000원</label>
+                                <label><input type="radio">무료</label>
+                            </td>    
+
+                        </tr>
+                        <tr class="table_tr">
+                            <td class="td">재고</td>
+                            <td><input type="text" name="prod_stock"></td>
+                        </tr>
+
+                        <tr class="table_tr2">
+                            <td>상품이미지</td>
+                            <td class="td_img">
+                                <p>상품목록 이미지(약 120 x 120)</p>
+                                <input type="file"> <br>
+                                <p>기본정보 이미지(약 240 x 240)</p>
+                                <input type="file" > <br>
+                                <p>상품목록 이미지(약 750 x Auto)</p>
+                                <input type="file" >
+                            </td>
+                        </tr>
+                        <tr class="table_tr3">
+                            <td>기타</td>
+                            <td><input type="text" name="prod_name" class="footerinput"></td>
+                        </tr>
                     </table>
+                    <div class="form-ft">
+                        <a href="#">취소</a>
+                        <input type="submit" value="상품등록" class="submit">
+                    </div>    
                 </form>
             </article>
         </section>
