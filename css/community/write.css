@@ -197,8 +197,15 @@ header > div:nth-child(3) > ul > li > a > img {
     margin-left: 12px;
 }
 
-.sub_page_p {
-    margin-bottom: 10px;
+.sub_page > form > table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.sub_page > form > table tr > td:nth-child(1) {
+    width: 112px;
+    height: 51px;
+    background-color: #f5f8f9;
+    text-align: center;
 }
 
 .sub_page_p > p > a {
