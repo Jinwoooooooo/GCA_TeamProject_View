@@ -37,7 +37,12 @@ header > div > * {
     margin: 0 auto;
 }
 
-header .top > p {
+header .top {
+    position: relative;
+    overflow: auto;
+}
+
+header .top > div {
     float: right;
     margin-top: 10px;
 }
