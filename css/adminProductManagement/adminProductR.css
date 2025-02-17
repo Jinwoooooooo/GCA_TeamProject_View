@@ -110,6 +110,7 @@ section {
     height: auto;
     margin-top: 10px;
     padding-left: 10px;
+    box-sizing: border-box;
 }
 
 section > nav {
@@ -118,16 +119,96 @@ section > nav {
 }
 
 article {
+    width: 784px;
+    height: auto;
     margin-top: 12px;
 }
 
+table {
+    width: 784px;
+    height: 133px;
+    border-top: 1px solid #333333;
+    border-collapse: collapse; /*셀 합치기*/
+    box-sizing: border-box;
+}
+
 form {
+    height: auto;
     border-top: 3px solid #333333;
 }
 
-tr {
-    border-bottom: 1px dashed gray;
+.table_tr {
+    width: 784px;
+    height: 43px;
 }
+
+.table_tr2 {
+    width: 784px;
+    height: 166px;
+}
+
+.table_tr3 {
+    width: 784px;
+    height: 61px;
+}
+
+.footerinput {
+    width: 157px;
+    height: 32px;
+}
+
+.radio > label:nth-child(2) {
+    margin-left: 15px;
+}
+
+.radio > label:nth-child(3) {
+    margin-left: 15px;
+}
+
+.radio > label:nth-child(4) {
+    margin-left: 15px;
+}
+
+.td_img > p {
+    margin-bottom: 2px;
+}
+
+.td_img > input {
+    margin-bottom: 7px;
+}
+
+td {
+    border-bottom: 1px dotted #999999;
+}
+
+.p_point {
+    padding-left: 5px;
+}
+
+.op {
+    width: 46px;
+    height: 18px;
+    border: 1px solid #767676;
+    background: #EFEFEF;
+    padding-left: 5px;
+}
+
+.submit {
+    width: 74px;
+    height: 31px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    background: #EFEFEF;
+
+    margin-left: 13px;
+}
+
+.form-ft {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
 
 /* -------------------------------------------------------------*/
 
