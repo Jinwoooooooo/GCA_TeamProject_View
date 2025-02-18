@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font: normal 12px "Noto Sans KR";
-    font-weight: bold; /* 굵게 설정 */
 }
 
 ul, ol {list-style: none;}
@@ -115,6 +114,7 @@ section {
 
 section > nav {
     font-size: 17px;
+    font-weight: bold;
 }
 
 section > article {
