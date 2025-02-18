@@ -199,13 +199,74 @@ header > div:nth-child(3) > ul > li > a > img {
 
 .sub_page > form > table {
     border-collapse: collapse;
-    border: 1px solid black;
+    border-top: 2px solid #111;
+    box-sizing: border-box;
 }
+
+h1 {
+    margin: 5px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.title {
+    width: 400px;
+    padding: 2px 0 2px 3px;
+    border: none;
+}
+
+.content {
+    width: 630px;
+    height: 280px;
+    border: none;
+}
+
+.file {
+    display: block;
+}
+
+.file1 {
+    margin: 10px 0;
+}
+
+.btnContainer {
+    float: right;
+    margin-top: 10px;
+}
+
+.btn {
+    height: 35px;
+}
+
+.btnCancel {
+    width: 42px;
+    border: 1px solid #bebebe;
+    background-color: white;
+}
+
+.btnSubmit {
+    width: 66px;
+    border: 1px solid #3b3c3f;
+    background-color: #4b545e;
+    color: white;
+}
+
+.sub_page > form > table tr {
+    border-bottom: 1px solid #e9e9e9;
+}
+
 .sub_page > form > table tr > td:nth-child(1) {
     width: 112px;
     height: 51px;
     background-color: #f5f8f9;
     text-align: center;
+}
+
+.sub_page > form > table tr > td:nth-child(2) {
+    width: 650px;
+    padding: 10px;
 }
 
 .sub_page_p > p > a {

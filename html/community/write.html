@@ -108,26 +108,28 @@
                                     <tr>
                                         <td>제목</td>
                                         <td>
-                                            <input type="text" name="title" placeholder="제목을 입력하세요." required>
+                                            <input type="text" name="title" placeholder="제목을 입력하세요." class="title" required>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>내용</td>
                                         <td>
-                                            <textarea name="content" maxlength="500" required></textarea>
+                                            <textarea name="content" maxlength="500" class="content" required></textarea>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>파일</td>
                                         <td>
                                             <p>최대 2개 파일 첨부 가능, 각 파일당 최대 10MB까지 가능</p>
-                                            <input type="file" name="file">
-                                            <input type="file" name="file2">
+                                            <input type="file" name="file1" class="file1 file">
+                                            <input type="file" name="file2" class="file2 file">
                                         </td>
                                     </tr>
                                 </table>
-                                <button>취소</button>
-                                <button type="submit">작성완료</button>
+                                <div class="btnContainer">
+                                    <button class="btn btnCancel">취소</button>
+                                    <button class="btn btnSubmit" type="submit">작성완료</button>
+                                </div>
                             </form>
                         </div>
                     </article>
