@@ -37,7 +37,7 @@ header > div > * {
     margin: 0 auto;
 }
 
-header .top > p {
+header .top > div {
     float: right;
     margin-top: 10px;
 }
@@ -126,7 +126,7 @@ header > div:nth-child(3) > ul > li > a > img {
 
 .main_container > section > aside > div:nth-child(2) {
     position: relative;
-    width: 100%;
+    width: 99%;
     height: 233px;
     background-image: url(/images/sub_aside_bg_lnb.png);
     background-repeat: no-repeat;
@@ -257,18 +257,6 @@ header > div:nth-child(3) > ul > li > a > img {
     color: white;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     display: inline-block;
