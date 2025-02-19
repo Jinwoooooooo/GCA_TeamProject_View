@@ -293,7 +293,7 @@ textarea {
 .comment_sub_title {
     font-size: 13px;
     font-weight: bold;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px solid #ddd;
     padding: 5px 0;
 }
 
@@ -338,6 +338,13 @@ textarea {
     width: 728px;
     height: 60px;
     border: 1px solid #e4eaec;
+}
+
+.commentContainer {
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    margin: 10px 0 5px 0;
+    background-color: white;
 }
 
 footer {
