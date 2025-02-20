@@ -199,6 +199,7 @@ header > div:nth-child(3) > ul > li > a > img {
 }
 
 .sub_page_section > section > table {
+    border-collapse: collapse;
     border-top: 2px solid black;
     border-bottom: 1px solid #d7d7d7;
     margin-top: 40px;
