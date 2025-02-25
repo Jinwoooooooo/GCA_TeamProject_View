@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script src="/js/cart.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -103,7 +104,7 @@
                             <table>
                                 <tr>
                                     <th>
-                                        <input type="checkbox">
+                                        <input type="checkbox" class="allCheckbtn">
                                     </th>
                                     <th>이미지</th>
                                     <th>종류</th>
@@ -121,7 +122,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input type="checkbox">
+                                        <input type="checkbox" class="checkbtn">
                                     </td>
                                     <td>
                                         <a href="#"><img src="/images/market_item1.jpg" alt="사과" class="item_img"></a>
@@ -136,7 +137,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input type="checkbox">
+                                        <input type="checkbox" class="checkbtn">
                                     </td>
                                     <td>
                                         <a href="#"><img src="/images/market_item1.jpg" alt="사과" class="item_img"></a>
@@ -151,7 +152,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input type="checkbox">
+                                        <input type="checkbox" class="checkbtn">
                                     </td>
                                     <td>
                                         <a href="#"><img src="/images/market_item1.jpg" alt="사과" class="item_img"></a>
@@ -167,38 +168,40 @@
                             </table>
                             <button class="delete">선택삭제</button>
                             <div class="total">
-                                <table>
-                                    <tr>
-                                        <th colspan="2">전체합계</th>
-                                    </tr>
-                                    <tr>
-                                        <td>상품수</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>상품금액</td>
-                                        <td>27,000원</td>
-                                    </tr>
-                                    <tr>
-                                        <td>할인금액</td>
-                                        <td>5,000원</td>
-                                    </tr>
-                                    <tr>
-                                        <td>배송비</td>
-                                        <td>5,000원</td>
-                                    </tr>
-                                    <tr>
-                                        <td>포인트</td>
-                                        <td>4,000원</td>
-                                    </tr>
-                                    <tr>
-                                        <td>전체주문금액</td>
-                                        <td><span style="font-size: 9px; font-weight: 700; color: #c20a0a;">22,000원</span></td>
-                                    </tr>
-                                </table>
-                                <div class="btn_container">
-                                    <button class="order">주문하기</button>
-                                </div>
+                                <form action="#">
+                                    <table>
+                                        <tr>
+                                            <th colspan="2">전체합계</th>
+                                        </tr>
+                                        <tr>
+                                            <td>상품수</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>상품금액</td>
+                                            <td>27,000원</td>
+                                        </tr>
+                                        <tr>
+                                            <td>할인금액</td>
+                                            <td>5,000원</td>
+                                        </tr>
+                                        <tr>
+                                            <td>배송비</td>
+                                            <td>5,000원</td>
+                                        </tr>
+                                        <tr>
+                                            <td>포인트</td>
+                                            <td>4,000원</td>
+                                        </tr>
+                                        <tr>
+                                            <td>전체주문금액</td>
+                                            <td><span style="font-size: 9px; font-weight: 700; color: #c20a0a;">22,000원</span></td>
+                                        </tr>
+                                    </table>
+                                    <div class="btn_container">
+                                        <button class="order" type="submit">주문하기</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </article>

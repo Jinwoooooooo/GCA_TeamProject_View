@@ -285,7 +285,7 @@ header > div:nth-child(3) > ul > li > a > img {
     margin-top: 10px;
 }
 
-.total > table {
+.total > form > table {
     width: 290px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -295,16 +295,16 @@ header > div:nth-child(3) > ul > li > a > img {
     padding: 0 10px;
 }
 
-.total > table tr {
+.total > form > table tr {
     height: 26px;
     padding: 10px;
 }
 
-.total > table tr > td:nth-child(1) {
+.total > form > table tr > td:nth-child(1) {
     width: 70%;
 }
 
-.total > table tr > td:nth-child(2) {
+.total > form > table tr > td:nth-child(2) {
     font-size: 11px;
 }
 
