@@ -216,7 +216,7 @@ table tr {
 
 table td {
     padding-left: 10px;
-    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
     height: auto;
 }
 table input {
